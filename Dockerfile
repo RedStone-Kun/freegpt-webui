@@ -21,3 +21,5 @@ COPY . .
 ENV PATH=/root/.local/bin:$PATH    
     
 CMD ["python3", "./run.py"]  
+
+EXPOSE 1338
